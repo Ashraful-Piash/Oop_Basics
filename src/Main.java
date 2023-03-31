@@ -29,9 +29,9 @@ class Person{
         count ++;
         System.out.println("Creating object");
     }
-    public Person(int age, String name){
+    public Person(int newAge, String name){
         this();
-       this.age = age;
+       age = newAge;
        this.name = name;
 
     }
