@@ -47,6 +47,7 @@ class Person{
     }
     void eat(int amount){
         System.out.println(name + " eats " + amount + "  gram");
+        System.out.println("done");
 
     }
 
