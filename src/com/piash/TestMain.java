@@ -5,7 +5,7 @@ public class TestMain {
         TestStudent s1 =  new TestStudent("Piash", 3,"superbatch","a");
         s1.display();
 
-        TestStudent s2 = new TestStudent("Bipu",1,"superbatch","a",5000);
+        TestStudent s2 = new TestStudent("Bipu",1,"Super Batch","a",5000);
         s2.display();
 
     }
