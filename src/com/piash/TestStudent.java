@@ -5,7 +5,8 @@ public class TestStudent {
     int rollNo;
     String batch;
     String section;
-    int dueSalary;
+    int dueFee;
+
 
     TestStudent(String name,int rollNo,String batch,String section){
         this.name = name;
@@ -13,13 +14,13 @@ public class TestStudent {
         this.batch = batch;
         this.section=section;
     }
-    TestStudent(String name, int rollNo, String batch, String section, int dueSalary){
+    TestStudent(String name, int rollNo, String batch, String section, int dueFee){
         this(name,rollNo,batch,section);
-        this.dueSalary= dueSalary;
+        this.dueFee= dueFee;
     }
     void display(){
 //        System.out.println("Student name is : " +name + " and his roll no is: "+rollNo + " . He is form batch: "+batch + "  Section is: "+section);
-        System.out.println("Student name is : " +name + " and his roll no is: "+rollNo + " . He is form batch: "+batch + "  Section is: "+section+ "due salary :"+dueSalary);
+        System.out.println("Student name is : " +name + " and his roll no is: "+rollNo + " . He is form batch: "+batch + "  Section is: "+section+ "due salary :"+dueFee);
 
     }
 
