@@ -7,6 +7,8 @@ public class TestMain {
 
         TestStudent s2 = new TestStudent("Bipu",1,"Super Batch","a",5000);
         s2.display();
+        TestStudent s3 = new TestStudent("haque","jamalpur", "superbatch","a",3000);
+        s3.display();
 
     }
 }
