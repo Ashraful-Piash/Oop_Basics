@@ -30,7 +30,7 @@ public class TestStudent {
     }
     void display(){
 //        System.out.println("Student name is : " +name + " and his roll no is: "+rollNo + " . He is form batch: "+batch + "  Section is: "+section);
-        System.out.println("Student name is : " +name + " and his roll no is: "+rollNo + " . He is form batch: "+batch + "  Section is: "+section+ "due salary :"+dueFee);
+        System.out.println("Student name is : " + name + " and his roll no is: "+rollNo + " . He is form batch: "+batch + "  Section is: "+section+ "due salary :"+dueFee);
         System.out.println("Student name is: "+ name + " he is from: "+village + "his roll no is :"+rollNo +" He is from batch: "+ batch+ "  Section is: "+section+ "due salary :"+dueFee);
 
     }
