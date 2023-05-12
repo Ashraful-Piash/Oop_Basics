@@ -5,10 +5,17 @@ public class Fruit {
     String season;
     int price;
 
-    void setInformation(String n, String s, int p){
+   /* void setInformation(String n, String s, int p){
         name =n;
         season = s;
         price = p;
+
+    } */
+    //constructor
+    Fruit(String n, String s, int p){
+        name = n;
+        season = s;
+        price =p;
 
     }
 

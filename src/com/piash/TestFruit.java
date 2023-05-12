@@ -2,16 +2,12 @@ package com.piash;
 
 public class TestFruit {
     public static void main(String[] args) {
-        Fruit fruit1 = new Fruit();
-        fruit1.setInformation("Mango", "Summer", 190);
-
+        Fruit fruit1 = new Fruit("Mango", "Summer", 190);
         fruit1.getInformation();
 
 
-        Fruit fruit2 = new Fruit();
-        fruit2.setInformation("Jam", "Winter", 220);
+        Fruit fruit2 = new Fruit("Berry","Summer", 20);
         fruit2.getInformation();
-
 
     }
 }

@@ -5,11 +5,21 @@ public class Teacher {
     String gender;
     int phoneNumber;
 
-    void setInformation(String n, String m, int ph){
+    //Method
+     /* void setInformation(String n, String m, int ph){
         name= n;
         gender = m;
         phoneNumber = ph;
+    } */
+    //Constructor
+
+    Teacher(String n, String g, int pn){
+        name = n;
+        gender = g;
+        phoneNumber = pn;
+
     }
+
 
     void displayInformation(){
         System.out.println("name: " +name);
