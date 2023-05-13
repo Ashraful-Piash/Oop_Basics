@@ -23,6 +23,7 @@ public class Fruit {
         System.out.println("Name : " +name);
         System.out.println("Season: " +season);
         System.out.println("Price per Kg: " +price);
+        System.out.println("Well Done");
 
     }
 }
