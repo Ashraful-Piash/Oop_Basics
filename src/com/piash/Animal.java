@@ -13,6 +13,9 @@ public class Animal {
         price = p;
 
     }
+    Animal(){
+        System.out.println("No value");
+    }
 
     void getInfromation(){
         System.out.println("name: "+name);

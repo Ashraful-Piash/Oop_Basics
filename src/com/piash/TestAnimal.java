@@ -7,7 +7,9 @@ public class TestAnimal {
 
         Animal animal2 = new Animal("Cat","Desi", "Bangaldesh", 300 );
         animal2.getInfromation();
-        
+
+        Animal animal3 = new Animal();
+        animal3.getInfromation();;
 
     }
 }
