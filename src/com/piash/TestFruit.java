@@ -10,7 +10,7 @@ public class TestFruit {
         fruit2.getInformation();
 
         Fruit fruit3 = new Fruit();
-            fruit3.getInformation();
+        fruit3.getInformation();
 
     }
 }
