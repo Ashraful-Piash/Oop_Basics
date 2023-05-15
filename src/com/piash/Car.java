@@ -5,12 +5,19 @@ public class Car {
     String color;
     int price;
 
-    void setInformation(String n, String c, int p){
+    Car(String n, String c, int p){
+        name = n;
+        color = c;
+        price = p;
+
+    }
+
+   /* void setInformation(String n, String c, int p){
         name = n;
         color= c;
         price = p;
 
-    }
+    } */
 
     void getInformation(){
         System.out.println("Car name is: "+name);
