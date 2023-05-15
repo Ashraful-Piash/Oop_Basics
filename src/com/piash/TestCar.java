@@ -8,7 +8,8 @@ public class TestCar {
         Car car2 = new Car("ford","blue",2000);
         car2.getInformation();
 
+        Car car3 = new Car();
+        car3.getInformation();
+
     }
-
-
 }

@@ -9,7 +9,10 @@ public class Car {
         name = n;
         color = c;
         price = p;
+    }
 
+    Car(){
+        System.out.println("No value for this car constructor");
     }
 
    /* void setInformation(String n, String c, int p){

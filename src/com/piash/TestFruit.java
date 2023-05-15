@@ -9,5 +9,8 @@ public class TestFruit {
         Fruit fruit2 = new Fruit("Berry","Summer", 20);
         fruit2.getInformation();
 
+        Fruit fruit3 = new Fruit();
+            fruit3.getInformation();
+
     }
 }
