@@ -10,6 +10,7 @@ public class CountStudent {
     void displayInformation(){
         System.out.println("Student count:"+count);
         System.out.println("All ok");
+        System.out.println("Alhamdulillah");
     }
 
 
