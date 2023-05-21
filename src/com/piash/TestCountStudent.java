@@ -8,7 +8,5 @@ public class TestCountStudent {
         s2.displayInformation();
         CountStudent s3 = new CountStudent();
         s3.displayInformation();
-
     }
-
 }
