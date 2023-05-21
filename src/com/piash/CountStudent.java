@@ -13,5 +13,6 @@ public class CountStudent {
         System.out.println("Alhamdulillah");
         System.out.println("I have to do better");
         System.out.println("In sha Allah , I wil do better");
+        System.out.println("What's going on");
     }
 }
