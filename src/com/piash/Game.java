@@ -4,6 +4,7 @@ public class Game {
     String name;
     String type;
     String region;
+    static String topPlayer;
 
     Game(String n, String t, String r){
         name = n;
