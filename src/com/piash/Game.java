@@ -11,6 +11,10 @@ public class Game {
         region = r;
     }
 
+    Game(){
+        System.out.println("Nothing in this game");
+    }
+
     void getInformation(){
         System.out.println("Game name is :"+name);
         System.out.println("Game type is: "+type);

@@ -8,5 +8,9 @@ public class NewGame {
         Game game2 = new Game("Cricket", "outdoor", "england");
         game2.getInformation();
 
+        Game game3 = new Game();
+        game3.getInformation();
+
+
     }
 }
