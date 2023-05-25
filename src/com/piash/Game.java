@@ -27,6 +27,7 @@ public class Game {
         System.out.println("Game type is: "+type);
         System.out.println("Game region is: "+region);
         System.out.println("top player is:" +topPlayer);
+        System.out.println("Well done");
         System.out.println("\n");
     }
 
