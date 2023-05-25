@@ -11,7 +11,7 @@ public class NewGame {
         Game game3 = new Game();
         game3.getInformation();
 
-        Game game4 = new Game("Football","outdoor","Britain");
+        Game game4 = new Game("Football","outdoor");
         game4.getInformation();
 
 

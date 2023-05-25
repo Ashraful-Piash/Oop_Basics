@@ -16,7 +16,6 @@ public class Game {
         name = p;
         type = q;
 
-
     }
 
     Game(){
