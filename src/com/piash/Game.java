@@ -4,13 +4,12 @@ public class Game {
     String name;
     String type;
     String region;
-    static String topPlayer="Ronaldo";
+    static String topPlayer="The Best One";
 
-    Game(String n, String t, String r, String tp){
+    Game(String n, String t, String r){
         name = n;
         type = t;
         region = r;
-        topPlayer = tp;
     }
 
     Game (String p, String q){
@@ -29,7 +28,7 @@ public class Game {
         System.out.println("Game type is: "+type);
         System.out.println("Game region is: "+region);
         System.out.println("top player is:" +topPlayer);
-        System.out.println("\n\n");
+        System.out.println("\n");
     }
 
 }
