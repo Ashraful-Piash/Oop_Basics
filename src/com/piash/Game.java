@@ -28,6 +28,7 @@ public class Game {
         System.out.println("Game region is: "+region);
         System.out.println("top player is:" +topPlayer);
         System.out.println("Well done");
+        System.out.println("What's next?");
         System.out.println("\n");
     }
 
