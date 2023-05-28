@@ -4,6 +4,7 @@ public class TeacherOne {
 
     String name, gender, village;
     int age, phoneNumber;
+    static String universityName = "CUET";
 
 
     TeacherOne(){
@@ -24,6 +25,15 @@ public class TeacherOne {
         phoneNumber = ph;
     }
 
+    void displayInformation(){
+        System.out.println("This is a non static method");
+    }
+
+    static void displayInformation2(){
+        System.out.println("This is a static method");
+
+    }
+
 
 
 
@@ -33,6 +43,7 @@ public class TeacherOne {
         System.out.println("Village:"+village);
         System.out.println("Age:"+age);
         System.out.println("PhoneNumber:"+phoneNumber);
+        System.out.println("University:"+universityName);
         System.out.println("\n");
 
     }

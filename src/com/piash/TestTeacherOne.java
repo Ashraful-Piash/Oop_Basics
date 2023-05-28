@@ -11,6 +11,10 @@ public class TestTeacherOne {
 
         TeacherOne t3 = new TeacherOne("Piash","Male","Jamalpur",26, 1888000);
         t3.getInformation();
+        TeacherOne t4 = new TeacherOne();
+        t4.displayInformation();
+
+        TeacherOne.displayInformation2();
 
         }
     }
