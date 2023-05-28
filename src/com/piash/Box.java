@@ -11,7 +11,8 @@ public class Box {
 
         void displayVolume() {
         double vol = height * width * depth;
-            System.out.println("Volume of box is" +vol);
+            System.out.println("Volume of box is: " +vol);
+            
         }
     }
 
