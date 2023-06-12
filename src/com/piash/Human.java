@@ -17,7 +17,7 @@ public class Human {
         System.out.println("Age is "+age);
         System.out.println("Category is:"+category);
         System.out.println("Total Human object is:"+count);
-        System.out.println("\n\n");
+        System.out.println("\n");
     }
     static void displayInformation2(){
         System.out.println("This is a static method. That is why there is no need to create an object to call this method");
