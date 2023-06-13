@@ -7,9 +7,18 @@ public class TestGari {
         ob1.setColor("Blue");
         ob1.setPrice(10000000);
 
-        System.out.println(ob1.getName());
-        System.out.println(ob1.getColor());
-        System.out.println("Price is: "+ob1.getPrice() +"$");
+        ob1.displayInformation();
+
+
+        PrivateGari ob2 = new PrivateGari();
+        ob2.setName("Rickshaw");
+        ob2.setColor("Multicolor");
+        ob2.setPrice(30000);
+
+        ob2.displayInformation();
+
+
+
 
     }
 }

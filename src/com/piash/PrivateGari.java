@@ -10,4 +10,10 @@ public class PrivateGari extends Gari{
     public void setColor(String color) {
         this.color = color;
     }
+    void  displayInformation(){
+        System.out.println(getName());
+        System.out.println(getColor());
+        System.out.println("Price is: "+getPrice() +" $");
+        System.out.println("\n");
+    }
 }
