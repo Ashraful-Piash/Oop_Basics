@@ -6,7 +6,5 @@ public class BoxVolume {
         Box box2 = new Box(3, 5, 7);
         box1.displayVolume();
         box2.displayVolume();
-
-
     }
 }
