@@ -12,6 +12,7 @@ public class Bus extends Vehicle{
     void displayAttribute(){
         super.displayAttribute();
         System.out.println("Gear: "+gear);
+        System.out.println("ok");
     }
 
 }
