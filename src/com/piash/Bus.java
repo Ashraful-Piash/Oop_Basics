@@ -13,6 +13,7 @@ public class Bus extends Vehicle{
         super.displayAttribute();
         System.out.println("Gear: "+gear);
         System.out.println("ok");
+        System.out.println("Need to be consistent");
     }
 
 }
