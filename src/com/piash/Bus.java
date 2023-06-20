@@ -14,6 +14,7 @@ public class Bus extends Vehicle{
         System.out.println("Gear: "+gear);
         System.out.println("ok");
         System.out.println("Need to be consistent");
+        System.out.println("Allah , please forgive me and guide me to the right path");
     }
 
 }
