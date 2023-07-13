@@ -11,6 +11,7 @@ public class TestOrerriding {
         for(int i = 0; i < 3; i++){
             System.out.println(s[i].area());
         }
+        System.out.println("done");
 
     }
 }
