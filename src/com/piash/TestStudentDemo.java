@@ -15,6 +15,7 @@ public class TestStudentDemo {
     public void showDetails(){
         System.out.println("Name is "+name);
         System.out.println("Mark is : "+marks);
+        System.out.println("Move to next");
     }
 
 }
