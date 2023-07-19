@@ -17,6 +17,7 @@ public class TestStudentDemo {
         System.out.println("Mark is : "+marks);
         System.out.println("Move to next");
         System.out.println("Allah , please save me");
+        System.out.println("In sha ALLAH , I will be succeed");
     }
 
 }
