@@ -1,5 +1,7 @@
 package com.piash;
 
+import java.util.Scanner;
+
 public class GetterSetter {
     private String name;
     private int rollNo;
@@ -22,5 +24,11 @@ public class GetterSetter {
     public void displayInformation(){
         System.out.println("name: "+name + "RollNo: "+rollNo);
     }
-
+    @Override
+    public String toString() {
+        return "GetterSetter{" +
+                "name='" + name + '\'' +
+                ", rollNo=" + rollNo +
+                '}';
+    }
 }
