@@ -11,5 +11,6 @@ public class TestGetterSetter {
         getterSetter.setName("PIash");
         getterSetter.setRollNo(1);
         System.out.println(getterSetter);
+        System.out.println("ok");
     }
 }
