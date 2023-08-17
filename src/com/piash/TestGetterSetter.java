@@ -8,7 +8,7 @@ public class TestGetterSetter {
 //        getterSetter.setName("piash");
 //        getterSetter.setRollNo(1);
 //        getterSetter.displayInformation();
-        getterSetter.setName("PIash");
+        getterSetter.setName("Piash");
         getterSetter.setRollNo(1);
         System.out.println(getterSetter);
         System.out.println("ok");
